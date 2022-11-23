@@ -1,16 +1,16 @@
-Why Clinic management System in EBG?
+# Why Clinic management System in EBG?
 
 The following points briefly explain why clinic management system is so important and should be implemented in EBG?
-•	When the clinic staff or nurses work on manual paper work it kills a lot of time and they have a tendency to commit errors when they organize the document manually.
-•	The patients need accurate and reliable information about their status in the clinic.
-•	The patients need to know the amount of the money they used from their annual allowable amount insurance and check the limit if it reaches or not at the maximum refund amount at any instance of time. 
+•When the clinic staff or nurses work on manual paper work it kills a lot of time and they have a tendency to commit errors when they organize the document manually.
+•The patients need accurate and reliable information about their status in the clinic.
+•The patients need to know the amount of the money they used from their annual allowable amount insurance and check the limit if it reaches or not at the maximum refund amount at any instance of time. 
 
 
 
 # Django_WebApp General Objective
 The main objective of this project is to create a fast, efficient and time saving system for the working environment and decreases the work overload currently imposed to the clinic staffs of the company. This system will change the existing manual paper work system to computerized system. It will provide the clinic staffs to concentrate on very critical and important issues rather than wasting time on this type of simple work after it solved.
 
-Specific Objectives
+# Specific Objectives
 
 The specific objectives are:
 •	Creating graphical user interface for the clinic staff users 
@@ -19,7 +19,7 @@ The specific objectives are:
 •	Adding a search bar for each specific fields in each class
 •	Adding view pdf and download document from the database 
 
-Software Development Environment (tools)
+# Software Development Environment (tools)
 
 In this software development I have used:
 •	Python 3.10.1 –django  v4,postgre as back end
@@ -34,7 +34,7 @@ Feasibility study is a test of system proposal according to its workability, imp
 3. What are the likely impacts of the candidate system on the organization?
 4. Whether it is worth to solve the problem?
 
-Technical feasibility
+# Technical feasibility
 A study of resource availability that may affect the ability to achieve an acceptable
 System. This evaluation determines whether the technology needed for the proposed
 system is available or not.
@@ -50,7 +50,7 @@ and back-end. When we decided to develop the project we went through an extensiv
 Study to determine the most suitable platform that suits the needs of the organization as
 well as helps in development of the project.
 The aspects of our study included the following factors.
-Front-end selection:
+# Front-end selection:
 1. It must have a graphical user interface that assists employees that are not from IT background.
 2. Scalability and extensibility.
 3. Flexibility.
@@ -62,7 +62,7 @@ Front-end selection:
 9. Event driven programming facility.
 10. Front end must support some popular back end like MySQL, Postgre.
 According to the above stated features we selected Python-Django platform using front ends HTML, CSS and JS as the front-end for developing my project.
-Back-end Selection:
+# Back-end Selection:
 1. Multiple user support.
 2. Efficient data handling.
 3. Provide inherent features for security.
