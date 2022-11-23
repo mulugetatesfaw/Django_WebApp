@@ -1,0 +1,46 @@
+{% extends "base_layout.html" %}
+{% if user.is_authenticated %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-8 mt-5 mx-auto" style="background-color: rgb(231, 221, 221);">
+            <code>
+            <h3 class="text-center m-3"><i>Patient Profile</i></h3>
+            </code>
+            <h4 class="text-center">ID No: {{ patient.patient_Id }}</h4>
+            <h6 class="text-center">First Name: {{ patient.PatientFname}}</h6>
+            <h6 class="text-center">Last Name: {{ patient.PatientLname }}</h6>
+            <h6 class="text-center">Gender: {{ patient.Sex  }}</h6>
+            <h6 class="text-center">Age: {{ patient.Age }}</h6>
+            <h6 class="text-center">Martial Status: {{ patient.MartialStatus}}</h6>
+            <h6 class="text-center">Religion: {{ patient.Religion }}</h6>
+            <h6 class="text-center">Occupation: {{ patient.Occupation  }}</h6>
+            <h6 class="text-center">Address: {{ patient.Address }}</h6>
+            <h6 class="text-center">History Of present Illness: {{ patient.History_of_present_illness  }}</h6>
+            <h6 class="text-center">Past Illness: {{ patient.Past_illness }}</h6>
+            <h6 class="text-center">Family History: {{ patient.FamilyHistory  }}</h6>
+            <h6 class="text-center">Social And personal History: {{ patient.Social_And_personal_History }}</h6>
+            <h6 class="text-center"> Nutritional History: {{ patient.Nutritional_history }}</h6>
+
+
+            <hr>
+            <hr>
+
+            <div class="row mx-auto">
+            <div class="col-4 mt-5 mx-auto m-5">
+                <a href="{% url 'patients' %}" class="btn btn-secondary">Back To Patients</a>
+            </div>
+            <div class="col-4 mt-5 mx-auto m-5">
+                <a href="{% url 'add_patient' %}" class="btn btn-secondary">Add New Patient</a>
+            </div>
+            <div class="col-4 mt-5 mx-auto m-5">
+                <a href="{% url 'patients' %}" class="btn btn-secondary">Back Home</a>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+{% endblock %}
+     {% else %}
+    {% include "login1.html" %}
+{% endif %}
